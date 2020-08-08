@@ -60,6 +60,7 @@ def borrarProducto(nombre_producto):
 	productos.remove(producto_encontrado[0])
 	return jsonify({"productos": productos})
 
+
 if __name__ == '__main__':
 	app.run(debug = True, port = 4000)
 
